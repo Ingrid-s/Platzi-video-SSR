@@ -20,8 +20,7 @@ const App = () => {
         <Categories title="Mi Lista">
           <Carousel>
             {initialState.mylist.map(item =>
-              <CarouselItem key={item.id} {...item} />
-            )};
+              <CarouselItem key={item.id} {...item} />)};
           </Carousel>
         </Categories>
       }
